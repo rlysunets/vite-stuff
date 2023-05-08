@@ -1,0 +1,1 @@
+export const setLocalStorage = (key, arr) => window.localStorage.setItem(key, JSON.stringify(arr))

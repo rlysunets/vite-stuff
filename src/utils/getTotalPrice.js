@@ -1,0 +1,1 @@
+export const getTotalPrice = (arr) => arr.reduce((prev, cur) => (cur.quantity * cur.price) + prev, 0)

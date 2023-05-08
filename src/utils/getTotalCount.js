@@ -1,0 +1,1 @@
+export const getTotalCount = (arr) => arr.reduce((prev, cur) => (cur.quantity + prev), 0)
